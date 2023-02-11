@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import Hero from 'components/Hero'
+import Space from 'components/Space'
 import Navbar from 'components/Navbar'
+import Events from 'components/Events'
 import Footer from 'components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,8 +18,11 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" />
 <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet" />
-<Hero />
-      </Head>      
+
+      </Head>  
+      <Navbar/>
+      <Space />
+<Events />
       <Footer />
     </>
   )

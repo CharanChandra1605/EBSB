@@ -1,5 +1,5 @@
 import React from 'react'
-import Item from 'components/Item'
+
 import {ImFacebook,ImInstagram,ImLinkedin} from "react-icons/im"
 export const ItemsContainer = () => {
   return (
